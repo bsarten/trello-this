@@ -17,9 +17,10 @@ It will walk you through a simple setup when first time you run:
 * Select the list that you'd like the bookmarklet to add cards too
 
 The card created in Trello will attempt to:
-* use the name of the FogBugz/JIRA/GitHub/etc case 
+* use the name of the FogBugz/JIRA/GitHub/etc case
 * include a link to the case in the card description
-* (optionally) include any selected text in the description
+* (optionally) include any selected text in the description. For JIRA it will add the ticket description if nothing is selected.
+* add yourself to the members of the card
 
 Some improvements:
 
